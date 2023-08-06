@@ -47,7 +47,8 @@ void loop(){
 
   unsigned char i; //カウントダウンの秒数。num[]の順番の指定に使う
   unsigned char num[6] = {0b00111111,0b00000110,0b10011011,0b10001111,0b10100110,0b10101101}; //0～5の7セグ点灯パターン
-  unsigned char j;
+  unsigned int j;
+
 
   for(j=0;j<50;j++) //サーボモータを初期位置に
   {
